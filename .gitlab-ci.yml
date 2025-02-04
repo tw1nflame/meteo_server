@@ -1,0 +1,6 @@
+run_tests:
+    image: python:3.11-slim-buste
+    before_script:
+        pip install -r "requirements.txt"
+    script: 
+        - pytest
